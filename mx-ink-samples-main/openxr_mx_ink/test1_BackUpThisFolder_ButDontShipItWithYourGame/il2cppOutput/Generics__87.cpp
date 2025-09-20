@@ -18698,7 +18698,7 @@ IL_005f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68308
+// Method Definition Index: 68325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObservableList_1_get_Count_m95A315B5DD265A0D488829CC68EF92C9B9B6E9EB_gshared (ObservableList_1_tD31D4A3E725CB7E11DBB3EB586834160B5ABDD55* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18709,7 +18709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObservableList_1_get_Count_m95A315B5D
 		return L_1;
 	}
 }
-// Method Definition Index: 68309
+// Method Definition Index: 68326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_get_Item_m4113D672D480C0CD4C8D85FC1933CB60DC569F39_gshared (ObservableList_1_tD31D4A3E725CB7E11DBB3EB586834160B5ABDD55* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
@@ -18721,7 +18721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_get_Item_m411
 		return L_2;
 	}
 }
-// Method Definition Index: 68310
+// Method Definition Index: 68327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_GetEnumerator_m7722D49C0B97A47DBB0BC784F78875F7CDBBABA5_gshared (ObservableList_1_tD31D4A3E725CB7E11DBB3EB586834160B5ABDD55* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18734,7 +18734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_GetEnumerator
 		return (RuntimeObject*)L_3;
 	}
 }
-// Method Definition Index: 68311
+// Method Definition Index: 68328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_add_listChanged_mBCC1FFE7A95F646A5ACCC56C957838985EE0E6D6_gshared (ObservableList_1_tD31D4A3E725CB7E11DBB3EB586834160B5ABDD55* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18777,7 +18777,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 68312
+// Method Definition Index: 68329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_remove_listChanged_mD4F793DEBAFF3AA1E938F4E13FE5B47F7CC18883_gshared (ObservableList_1_tD31D4A3E725CB7E11DBB3EB586834160B5ABDD55* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18828,7 +18828,7 @@ IL_0007:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 68308
+// Method Definition Index: 68325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObservableList_1_get_Count_m0F36B58D2BFC36C9B5F7ECA888FDCC34021E48AF_gshared (ObservableList_1_tFBA959919948E6906D63A9A18923939344D19D70* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18839,7 +18839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObservableList_1_get_Count_m0F36B58D2
 		return L_1;
 	}
 }
-// Method Definition Index: 68309
+// Method Definition Index: 68326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_get_Item_mE62B81EC8F41AB7B8802E7DE5F44ECF405F9FE4D_gshared (ObservableList_1_tFBA959919948E6906D63A9A18923939344D19D70* __this, int32_t ___0_index, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB8AB41CDED15F0F2E3213746AF9DB5E61DF5E48C = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
@@ -18853,7 +18853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_get_Item_mE62B81EC8F41A
 		return;
 	}
 }
-// Method Definition Index: 68310
+// Method Definition Index: 68327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_GetEnumerator_m0DAA44D65788278DF37FE333CFAE521DC3C70AD6_gshared (ObservableList_1_tFBA959919948E6906D63A9A18923939344D19D70* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Enumerator_t3D8D6B86CB8A6DABEC3C85A2A01E812EA9373B17 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 6));
@@ -18866,7 +18866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObservableList_1_GetEnumerator
 		return (RuntimeObject*)L_2;
 	}
 }
-// Method Definition Index: 68311
+// Method Definition Index: 68328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_add_listChanged_m2CDEFAE8D43CD75115EDD8ECF864E6B1BB17AB87_gshared (ObservableList_1_tFBA959919948E6906D63A9A18923939344D19D70* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18909,7 +18909,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 68312
+// Method Definition Index: 68329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObservableList_1_remove_listChanged_m39AA22E326EC589DF192CFCEC3329F533343705E_gshared (ObservableList_1_tFBA959919948E6906D63A9A18923939344D19D70* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

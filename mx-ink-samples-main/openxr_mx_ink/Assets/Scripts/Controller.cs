@@ -79,13 +79,22 @@ public class Controller : MonoBehaviour
         }
     }
 
+    public void togglePanel(bool on){
+        if(on){
+            isPanelOn = true;
+            systemPanel.SetActive(true);
+            disableAllController();
+        } else {
+            changeMode(mode_cursor);
+        }
+    }
+
     public void Update()
     {
         if (check_btn_back())
         {
-            if (isPanelOn) isPanelOn = false;
-            else isPanelOn = true;
-            systemPanel.SetActive(isPanelOn);
+            if (isPanelOn) togglePanel(false);
+            else togglePanel(true);
         }
         Debug.Log($"isPanelOn: {isPanelOn}");
     }
