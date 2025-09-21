@@ -22,11 +22,11 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	22891,
-	13212,
-	13212,
-	13212,
-	13212,
+	24640,
+	14050,
+	14050,
+	14050,
+	14050,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MetaQuestSupport_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MetaQuestSupport_CodeGenModule = 

@@ -33,6 +33,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_DirectorModule_CodeGenMo
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GridModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_HierarchyCoreModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_IMGUIModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputForUIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputLegacyModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule;
@@ -57,6 +58,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsCommonModu
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityConsentModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VFXModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
@@ -83,9 +85,10 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_OculusQuestSupport_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_glTFast_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[69] = 
+const Il2CppCodeGenModule* g_CodeGenModules[72] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
@@ -105,6 +108,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[69] =
 	(&g_UnityEngine_GridModule_CodeGenModule),
 	(&g_UnityEngine_HierarchyCoreModule_CodeGenModule),
 	(&g_UnityEngine_IMGUIModule_CodeGenModule),
+	(&g_UnityEngine_ImageConversionModule_CodeGenModule),
 	(&g_UnityEngine_InputForUIModule_CodeGenModule),
 	(&g_UnityEngine_InputLegacyModule_CodeGenModule),
 	(&g_UnityEngine_InputModule_CodeGenModule),
@@ -129,6 +133,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[69] =
 	(&g_UnityEngine_UnityAnalyticsModule_CodeGenModule),
 	(&g_UnityEngine_UnityConsentModule_CodeGenModule),
 	(&g_UnityEngine_UnityWebRequestModule_CodeGenModule),
+	(&g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule),
 	(&g_UnityEngine_VFXModule_CodeGenModule),
 	(&g_UnityEngine_VRModule_CodeGenModule),
 	(&g_UnityEngine_VideoModule_CodeGenModule),
@@ -155,27 +160,28 @@ const Il2CppCodeGenModule* g_CodeGenModules[69] =
 	(&g_Unity_XR_OpenXR_Features_OculusQuestSupport_CodeGenModule),
 	(&g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule),
 	(&g___Generated_CodeGenModule),
+	(&g_glTFast_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	34,
+	66,
 	g_ReversePInvokeWrapperPointers,
-	103095,
+	110156,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	22898,
+	24648,
 	g_Il2CppInvokerPointers,
-	3012,
+	3119,
 	g_UnresolvedVirtualMethodPointers,
 	g_UnresolvedInstanceMethodPointers,
 	g_UnresolvedStaticMethodPointers,
-	828,
+	869,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	69,
+	72,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
